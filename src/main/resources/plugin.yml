@@ -1,0 +1,16 @@
+name: CustomWorldGenerator
+version: '1.0'
+main: site.besd.customWorldGenerator.CustomWorldGenerator
+api-version: '1.21'
+authors: [ Besd ]
+description: Create Custom Worlds With SIMPLE GUI
+website: besd.site
+commands:
+  createworld:
+    description: Opens the world creation GUI
+    usage: /createworld
+    aliases: [cw, worldcreate]
+permissions:
+  customworld.create:
+    description: Allows creating custom worlds
+    default: op
